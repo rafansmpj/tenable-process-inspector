@@ -8,7 +8,7 @@ tier: "unreviewed"
 tags: ["tag1", "tag2"]
 integrations: ["Tenable"]
 date_added: 2026-07-01
-compatible_platforms: ["Claude Code"]
+compatible_platforms: ["Claude Desktop"]
 invocation: "tenable-process-inspector"
 ---
 
