@@ -5,7 +5,6 @@ github_url: "https://github.com/rafansmpj/tenable-process-inspector"
 description: "Win Process Inspector PlugIn 70329"
 license: "MIT"
 tier: "unreviewed"
-tags:["windows-processes", "threat-hunting", "attack-path", "mitre-attack", "tenable", "process-inspector"]
 integrations: ["Tenable"]
 date_added: 2026-07-01
 compatible_platforms: ["Claude Desktop"]
