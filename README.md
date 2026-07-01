@@ -38,3 +38,56 @@ Copy the skill folder into the local Claude Code skills directory:
 - Make sure the Tenable One HEXA AI MCP connector is set up and active in the same Claude environment (this is the one external dependency; everything else, like the color palette, phase logic, and scoring weights, is hardcoded in SKILL.md).
 - Optionally, set organizational context the skill will use when invoked: industry/sector (for benchmark comparison), language preference (English/Portuguese), and any default filters (e.g., always focus on Crown Jewels, or always include regulatory mapping like LGPD/ISO 27001/NIST CSF/PCI-DSS).
 - No API keys or .env files are needed inside the skill itself — credentials live entirely in the MCP connector configuration, not in the skill folder.
+
+## This skill will provide outputs that would help:
+
+· Blue Team
+· Vulnerability Management
+· Detection Engineering
+· SOC
+
+This breaks down into several activities:
+
+1. Asset visibility / telemetry collection
+
+• Enumerating running processes across endpoints
+• Aggregating process inventory per host
+• Understanding what software is active
+Strong fit for: Blue Team and Exposure / Vulnerability Management
+
+2. Detection and triage
+
+• Reviewing process names
+• Identifying suspicious execution
+• Determining anomalies
+Strong fit for: SOC (Security Operations Center)
+
+3. Threat hunting
+
+• Looking across many hosts for unusual processes
+• Correlating indicators
+• Searching for persistence
+Strong fit for: Threat Hunting
+
+4. Endpoint monitoring
+• Investigating process execution telemetry
+Strong fit for: EDR / Endpoint Security Team
+
+That usually sits under:
+• 	Vulnerability Management Team
+• 	Exposure Management Team
+• 	Security Engineering
+• 	SOC
+
+If the objective is:
+• 	Find suspicious processes → SOC / Threat Hunting
+• 	Inventory processes at scale → Vulnerability Management / Exposure Management
+• 	Validate detections → Red Team / Purple Team
+
+So the single best answer would be: SOC + Blue Team (Threat Hunting capability).
+
+**Usage Mapping:**
+
+<img width="670" height="399" alt="image" src="https://github.com/user-attachments/assets/6733be67-c460-4f4e-80aa-0cdc2dcf5462" />
+
+
