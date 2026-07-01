@@ -41,50 +41,57 @@ Copy the skill folder into the local Claude Code skills directory:
 
 ## This skill will provide outputs that would help:
 
-· Blue Team
-· Vulnerability Management
-· Detection Engineering
-· SOC
+- Blue Team
+- Vulnerability Management
+- Detection Engineering
+- SOC
 
 This breaks down into several activities:
 
 1. Asset visibility / telemetry collection
 
-• Enumerating running processes across endpoints
-• Aggregating process inventory per host
-• Understanding what software is active
-Strong fit for: Blue Team and Exposure / Vulnerability Management
+- Enumerating running processes across endpoints
+- Aggregating process inventory per host
+- Understanding what software is active
+
+  Strong fit for: Blue Team and Exposure / Vulnerability Management
 
 2. Detection and triage
 
-• Reviewing process names
-• Identifying suspicious execution
-• Determining anomalies
-Strong fit for: SOC (Security Operations Center)
+- Reviewing process names
+- Identifying suspicious execution
+- Determining anomalies
+
+  Strong fit for: SOC (Security Operations Center)
 
 3. Threat hunting
 
-• Looking across many hosts for unusual processes
-• Correlating indicators
-• Searching for persistence
-Strong fit for: Threat Hunting
+- Looking across many hosts for unusual processes
+- Correlating indicators
+- Searching for persistence
+
+  Strong fit for: Threat Hunting
 
 4. Endpoint monitoring
-• Investigating process execution telemetry
-Strong fit for: EDR / Endpoint Security Team
+
+- Investigating process execution telemetry
+
+  Strong fit for: EDR / Endpoint Security Team
 
 That usually sits under:
-• 	Vulnerability Management Team
-• 	Exposure Management Team
-• 	Security Engineering
-• 	SOC
+
+- Vulnerability Management Team
+- Exposure Management Team
+- Security Engineering
+- SOC
 
 If the objective is:
-• 	Find suspicious processes → SOC / Threat Hunting
-• 	Inventory processes at scale → Vulnerability Management / Exposure Management
-• 	Validate detections → Red Team / Purple Team
 
-So the single best answer would be: SOC + Blue Team (Threat Hunting capability).
+- Find suspicious processes → SOC / Threat Hunting
+- Inventory processes at scale → Vulnerability Management / Exposure Management
+- Validate detections → Red Team / Purple Team
+
+  So the single best answer would be: SOC + Blue Team (Threat Hunting capability).
 
 **Usage Mapping:**
 
